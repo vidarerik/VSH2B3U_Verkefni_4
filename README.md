@@ -1,18 +1,29 @@
-# Hópverkefni
-Viðar og Sigurður ætla skipta vefsíðuverkefninu þannig að Viðar gerir sinn tengil hjá Viðar tenglinum og Siggi á sínum.
-Viðar ætlar að prufa að embedda leik í games tenglinum og Sigurður ákveður hverning litasamsetning verður á vef síðunni og vinnur með layout.
+# VSH2B3U_Verkefni4
+# Greinargerð um vinnuferlið.
+VSH2B3U; Verkefnið felst í að hanna vefsíðu(r) um viðburð.
 
-Uppsetning á vefsíðu okkar er gert í þeim tilgangi að reyna hafa layout-ið einfald og skýrt svo að það sjé ekki villandi og það er hægt að lesa þægilega og skýrlega af síðunni.
+# Um hvað er vefurinn?
+* Vefurinn fjallar um samsæriskenningar David Icke og hans samkomu sem mun verða haldin hér á landi á næstu dögum í sumar, á vefnum koma fram upplýsingar um hvenær og hvar samkoman verður haldin, tími samkomu og hverning fólk getur nálgast miða og gefa email fyrir fréttir.
+* Vefurinn á líka að auglýsa og vekja athygli á samsæriskennigum hans David IceKe, stærstu kennigum og að geta gerst meðlimur í David Iceke fanclub.
 
-Stillinngar vefsíðu eru gerðar í samstarfi milli okkar Vidda og Sigga, Við höfum stillinngar sem við erum báðir samála um og skoðum alltaf hjá hvort öðrum áður en við gerum git push, pull eða commit.
-einungis eiga stillingar að vera helds einfaldar og skilvirkar svo við þurfum ekki að hafa of mikið code í css skjalinu.
+# Hver er markhópurinn og markmið með gerð vefsins.
+* Markmið með gerð vefsins er að reyna auglýsa samsæriskennigar David Iceke og hans samkomur betur hér á landi og hvað við getum lært   varðandi samsæriskenningamenningu. Á sama tíma reyna líka að fá fólk til að hafa hugan meira opinn fyrir samsærum og óþekktum hlutum sem við skiljum ekki til fulls.
+* Markhópurinn er í raun fyrir fólk á öllum aldri, eins lengi sem fólk hefur áhuga og hefur traust fyrir samsæriskennigum David Iceke.
 
-keyrslu og notkun verkefnis:
-Skil kannski ekki alveg hvað það er meinað með keyrslu verkefnis, en notkun verkefnis á að vera í þeim tilgang að hægt sjé að nota vefsíðuna í að finna uppýsingar um sögu mario tölvuleikjana og afþreyingu sem tengist tölvum og tölvuleikjum. 
-Einnig eru youtube videos sem ég og viddi höfum hjálpað við eða verið með í og gefum links á youtube channle-ið sem vinur okkar á.
+# Útskýrið hvernig samskipti eiga að vera milli biðlara (client) og miðlara (server)
+* Þegar ég útskýri hverning samskipti eiga að vera milli client og server þá verður það gert að því leiða ljósi að hafa load times eins hraðann og hægt er og að biðlarar geti búið sér til notanda á síðunni til að fá uppfærslur um samsæriskenningar frá David Iceke send til þeira á Email.
 
-6.12.2016
+# Útskýrið eigin lausnir og virkni ss forritun og kvikun.
+* :feelsgood:
 
-Ætlum að skipta verkefnið í á milli okkar og bæta við í contacts smá um okkur og okkar áhugamál og upplýsingar um hverning er hægt að hafa samband við okkur.
+# Fáðu samnemenda eða vin til að prófa vefinn, fylgstu með hvernig hann notar vefinn og hvernig honum gengur að skrá sig á viðburði.
+* :feelsgood: 
 
-06.12.2016
+# Skráðu niðurstöðu prófsins og hvernig þú leysir vandamál sem geta komið upp.
+* :feelsgood:
+
+# Er vinnsla í lagi? Er vefurinn villulaus? (sjá Inspector console, firebug, chrome dev)
+* :feelsgood:
+
+# Hvað má gera betur og hver geta verið næstu skref með vefinn (ókláruð virkni, endurbætur o.s.frv.).
+* Þegar það kemur að gera endurbætur á vefnum þá væri ég mjög til í að gera online chat-room sem myndi gefa þeim sem hafa skráð sig á síðuna gleyft að tala við aðra notendur á síðunni, Það væri líka sniðugt að leyfa random users "Anons" að nota chat-room líka án þess að þurfa að gefa email og þá myndu þeira fá tagmargaðan aðgang að chat room og gefið random "Anon" nafn t.d. "Anon168421".
