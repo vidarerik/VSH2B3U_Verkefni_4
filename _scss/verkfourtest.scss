@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Revalia');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
 
 *{
 	box-sizing: border-box;
@@ -37,11 +38,13 @@ button{
 }
 
 h1{
+	font-family: 'Revalia';
 	text-align: center;
-	font-size: 64px;
+	font-size: 33px;
 }
 
-h2, h3{
+h2{
+	font-family: 'Nunito';
 	padding: 1em;
 }
 
@@ -254,6 +257,7 @@ input:checked ~ nav .topMenu{
 	border: 2px solid black;
 }
 .borderbox {
+	width: 100%;
 	padding: 1em;
 	margin: 0;
 	border: 2px solid #0355a8;
@@ -546,7 +550,7 @@ nav{
 	.moveInside{
 		position: absolute;
 		margin-top: 10em;
-		margin-left: 38em;
+		
 	}
 
 
