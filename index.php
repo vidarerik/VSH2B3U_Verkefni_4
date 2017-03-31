@@ -9,7 +9,6 @@
 	<link rel="icon" href="img/reptthumb.png">
 </head>
 <body class="body">
-<!-- 
 <?php
 				$servername = "tsuts.tskoli.is";
 				$username = "1008912399";
@@ -31,7 +30,7 @@
 				
 				//Haus á töflu
 
-				echo("<table><thead><tr><th>Nafn:</th><th>Email:</th><th>Nafn:</th></tr></thead><tbody>");
+				
 				//innihald
 				if ($result->num_rows > 0) {
 				    // output data of each row
@@ -45,7 +44,6 @@
 				mysqli_close($conn);
 
 			?>
-			-->
 	<div class="flexin">
 	<h1 class="borderbox haed breidd">Welcome to David Icke Official Website</h1>
 	<input type="checkbox" id="toggle" class="menuInput">
@@ -93,20 +91,20 @@
 							<!--form action="#" method="post"-->
 							<table>
 								
-									<tr >
+									<tr>
 										<td>
-											<label class="phpLabelTop">Nafn: </label>
+											<label>Nafn: </label>
 										</td>
 										<td>
-											<input type="text" name="nafn" class="phpInputTop">
+											<input type="text" name="nafn">
 										</td>
 									</tr>
 									<tr>
 										<td>
-											<label class="phpLabelBot">Email: </label>
+											<label>Email: </label>
 										</td>
 										<td>
-											<input type="text" name="Email" class="phpInputBot">
+											<input type="text" name="Email">
 										</td>
 									</tr>
 								
