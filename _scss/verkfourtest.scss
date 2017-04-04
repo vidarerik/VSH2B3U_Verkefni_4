@@ -12,7 +12,7 @@ body{
 	margin: 0;
 	padding: 0;
 	line-height: 1.2; 
-	background-color: #999999;
+	background-color: #003366;
 	color: white;
 	font-family: monospace,sans-serif,serif;
 	font-size: 18px;
@@ -23,9 +23,6 @@ p{
 	padding: 1em;
 }
 
-article h2, content p{
-	text-align: center;
-}
 
 a:active ,a:visited, a:link{
 	text-decoration: none;
@@ -120,6 +117,7 @@ audio{
 }
 
 .menuLabel {
+	display: none;
 	color: #0087cc;
 	cursor: pointer;
 	display: inline-block;
@@ -234,7 +232,7 @@ audio{
 	
 }
 
-/*
+
 .flexbot{
 	display: flex;
 	flex-flow: row;
@@ -245,7 +243,11 @@ audio{
 	margin-left: auto;
 	margin-right: auto;
 }
-*/
+
+.flexbot a{
+	color:crimson;
+}
+
 
 .breidd{
 	width: 100%;
@@ -267,6 +269,37 @@ audio{
 
 .haed{
 	padding-top: 2.2em;
+}
+
+.parallaxnmeitt{
+	background-image: url("../img/davidhey.jpg");
+	max-width:100%; 
+    max-height:100%;
+    margin:auto;
+    display:block;
+
+	background-attachment: scroll;
+}
+
+.parallaxnmtvo{
+	background-image: url("../img/reptilian.gif");
+
+	height: 400px;
+
+	width: 100%;
+	background-attachment: scroll;
+}
+
+.parallaxnmthrju{
+	background-image: url("../img/illuminati.jpg");
+	height: 500px;
+	width: auto;
+
+	background-attachment: scroll;
+}
+
+.navbar{
+	display:none;
 }
 
 
@@ -332,6 +365,7 @@ nav{
 	}
 
 	.topMenu{
+		display: none;
 		margin: 0;
 		padding: 0;
 		width: 100%;
@@ -396,6 +430,7 @@ nav{
 }
 /* Holy grail */
 @media screen and (min-width: 60em){
+
 	a{
 		font-size: 25px;
 	}
@@ -422,6 +457,7 @@ nav{
 		text-align: center;
 	}
 
+
 	iframe{
 		width:41em;
 		height:24em;
@@ -442,6 +478,20 @@ nav{
 		height: auto;
 		width: 100%;
 		order: 6;
+	}
+
+	.borderbox{
+		max-width: 60em;
+		margin: 0 auto;
+		border: 0 solid;
+	}
+
+	.navbar{
+		display: inline-block;
+	}
+
+	.flexbot{
+		display: none;
 	}
 
 	.resize{
@@ -499,7 +549,7 @@ nav{
 	}
 
 	.parallaxnmeitt{
-		background-image: url("../img/reptilian.gif");
+		background-image: url("../img/davidhey.jpg");
 
 		height: 500px;
 
@@ -510,7 +560,7 @@ nav{
 	}
 
 	.parallaxnmtvo{
-		background-image: url("../img/david.jpg");
+		background-image: url("../img/reptilian.gif");
 
 		height: 500px;
 
@@ -560,23 +610,38 @@ nav{
 
 	.phpLabelTop{
 		position: relative;
-		bottom: 30px;
+		bottom: 20px;
+		padding-left: 10px;
+		padding-top: 15px;
 	}
 
 	.phpLabelBot{
 		position: relative;
-		bottom: 5em;
+		bottom: 3em;
+		padding-left: 10px;
+
 	}
 
 
 	.phpInputTop{
 		position: relative;
-		bottom: 19px;
+		bottom: 11px;
+		margin-top: 10px;
 	}
 
 	.phpInputBot{
 		position: relative;
-		bottom: 5em;
+		bottom: 3em;
+		margin-top: 10px;
+	}
+
+	.takki{
+		margin: 0;
+		padding: 0;
+		left: 180px;
+		bottom: 50px;
+		width: 60%;
+		height: 75%;
 	}
 
 	table{
