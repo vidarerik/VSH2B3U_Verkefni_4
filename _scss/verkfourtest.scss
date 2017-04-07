@@ -12,7 +12,7 @@ body{
 	margin: 0;
 	padding: 0;
 	line-height: 1.2; 
-	background-color: #003366;
+	background-color: #8CC739;
 	color: white;
 	font-family: monospace,sans-serif,serif;
 	font-size: 18px;
@@ -21,6 +21,7 @@ body{
 
 p{
 	padding: 1em;
+	color: #002517;
 }
 
 
@@ -35,14 +36,27 @@ button{
 }
 
 h1{
+
 	font-family: 'Revalia';
 	text-align: center;
+	color: #002517;
 	font-size: 33px;
 }
 
 h2{
 	font-family: 'Nunito';
+	color: #002517;
+	line-height: 50px;
 	padding: 1em;
+}
+
+h3{
+	color: #002517;
+}
+
+
+label{
+	color: #002517;
 }
 
 header h2{
@@ -52,7 +66,7 @@ footer{
 	width: 100%;
 	height: 100%;
 	padding: 0.4em;
-	background-color: #003366;
+	background-color: #085DAD;
 }
 
 /* YouTube */
@@ -70,7 +84,7 @@ iframe{
 nav{
 	text-decoration: none;
 	width: 100%;
-	background-color: #0355a8;
+	background: -webkit-linear-gradient(#36D1DC, #5B86E5);
 	border: 2px solid #5c9cde;
 }
 
@@ -140,6 +154,7 @@ audio{
 }
 
 
+
 .Hugleft {
 	text-align: left;
 }
@@ -159,6 +174,10 @@ audio{
     height:auto;
     border: 9px groove #FFFFFF;
 
+}
+
+.headcolor{
+	background-color: #21BEDE;
 }
 
 .tengill{
@@ -264,11 +283,11 @@ audio{
 	padding: 1em;
 	margin: 0;
 	border: 2px solid #5c9cde;
-	background-color: #003366;
+	background-color: #8CC739;
 }
 
 .haed{
-	padding-top: 2.2em;
+	padding-top: 3.2em;
 }
 
 .parallaxnmeitt{
@@ -436,21 +455,17 @@ nav{
 	}
 
 	
-	a:link{
+	.navbar a:link{
 		color: blue;
 	}
 
 
-	a:visited{
-		color:purple;
+	.navbar a:visited{
+		color: purple;
 	}
 
 	a:hover {
-		color: #FFFFFF;
-	}
-
-	nav a:hover {
-		color: #FFFFFF;
+		background-color: red;
 	}
 
 	h3{
@@ -549,7 +564,7 @@ nav{
 	}
 
 	.parallaxnmeitt{
-		background-image: url("../img/davidhey.jpg");
+		background-image: url("../img/illuminati.jpg");
 
 		height: 500px;
 
@@ -560,7 +575,7 @@ nav{
 	}
 
 	.parallaxnmtvo{
-		background-image: url("../img/reptilian.gif");
+		background-image: url("../img/davidlogo2.jpg");
 
 		height: 500px;
 
@@ -571,7 +586,7 @@ nav{
 	}
 
 	.parallaxnmthrju{
-		background-image: url("../img/illuminati.jpg");
+		background-image: url("../img/scale.jpg");
 
 		height: 500px;
 
@@ -585,7 +600,7 @@ nav{
 		text-align: center;
 		border: 2px solid #5c9cde;
 	    overflow: hidden;
-	    background: rgba(153, 153, 153, 0.9);
+	    background: linear-gradient(#36D1DC, #5B86E5);
 	    position: fixed; /* Set the navbar to fixed position */
 	    top: 0; /* Position the navbar at the top of the page */
 	    width: 100%; /* Full width */
@@ -644,17 +659,43 @@ nav{
 		height: 75%;
 	}
 
+	.verticalauglysing{
+		position: fixed;
+		background: url(../img/maxresdefault2.jpg) no-repeat;
+		background-size: 100%;
+		text-align: center;
+		top: 100px;
+		max-width: 150px;
+		max-height: 400px;
+		left: 10px;
+		bottom: 50px;
+		border: solid 1px white;
+		overflow: hidden;
+		padding: 2em;
+	}
+
+	.tossing{
+		font-size: 12px;
+		display: inline-block;
+
+	}
+	.tengill{
+		margin: 0;
+		padding: 0;
+	}
+	.buttonicon:hover {background-color: #3e8e41}
+
+	.buttonicon:active {
+	    background-color: #3e8e41;
+	    box-shadow: 0 5px #666;
+	    transform: translateY(4px);
+	}
+
 	table{
 		margin: 0 auto;
 		width:500px;
 		height: 200px;
 		border: 2px solid white;
-	}
-
-
-	tr{
-
-
 	}
 
 	td{
@@ -669,6 +710,9 @@ nav{
 	input{
 		margin-bottom: 20px;
 	}
+
+
+
 
 }
 
